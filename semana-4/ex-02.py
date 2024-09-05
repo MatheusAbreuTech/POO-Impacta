@@ -5,7 +5,6 @@
 # atributo estado. O setter deve aceitar apenas os valores
 # "ligado" ou "desligado" e alterar o estado da lâmpada de
 # acordo.
-
 class Lampada:
     def __init__(self):
         self.__estado = 'desligado'
@@ -15,7 +14,7 @@ class Lampada:
             self.__estado = estado
         else:
             print('valor inválido')
-    
+
     def get_Estado(self):
         print(self.__estado)
 
